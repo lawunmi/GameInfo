@@ -7,10 +7,9 @@ import java.sql.SQLException;
 
 public class DbConnection 
 {
-			//static String dbURL = "jdbc:oracle:thin:@ 199.212.26.208:1521:SQLD";
-			static String dbURL = "jdbc:oracle:thin:@oracle1.centennialcollege.ca:1521:SQLD";
-			static String username = "COMP228_W24_sy_24";
-			static String password = "password";
+			static String dbURL = "";
+			static String username = "";
+			static String password = "";
 			
 			public static Connection getDBConnection() {
 				Connection conn = null;
